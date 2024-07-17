@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=WindSong:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 453px;
+    width: 74%;
+    margin: 57px auto;
+}
+
+header {
+    border: 1px solid black;
+    height: 100vh;
+    background-color: rgb(17, 17, 17);
+    /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
+}
+
+.navbar h3 {
+    font-style: italic;
+    font-size: 36px;
+    color: rgb(230, 83, 60);
+}
+
+.navlinks {
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+}
+
+.navlinks ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 43px;
+    margin: 4px;
+    padding-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.navlinks ul .nav-items {
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+}
+.navlinks ul a .nav-items.n1 {
+    padding: 8px 20px;
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    margin: 0 auto;
+}
+.banner .content {
+    width: 50%;
+}
+.banner .content h3 {
+    color: white;
+    font-size: 78px;
+    font-weight: bold;
+    line-height: 120%;
+}
+.banner .content p{
+    color: white;
+    opacity: 0.5;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    padding: 24px 0 24px 0;
+}
+.banner h3 .shape {
+    font-family: "WindSong", cursive;
+}
+.btn-primary {
+    padding: 16px 40px;
+    color: white;
+    background: rgb(230, 83, 60);
+    border-radius: 42px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+}
+.btn-secondary {
+    padding: 16px 40px;
+    background: rgb(17, 17, 17);
+    color: #FFF;
+    border: 2px solid #FFF;
+    border-radius: 42px;
+    font-size: 18px;
+    font-weight: 600;
+    gap: 14px;
+}
