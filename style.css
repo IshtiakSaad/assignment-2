@@ -115,6 +115,7 @@ a {
     padding: 16px 40px;
     color: white;
     background: rgb(230, 83, 60);
+    border: none;
     border-radius: 42px;
     font-size: 18px;
     font-weight: 600;
@@ -317,14 +318,18 @@ a {
     padding-bottom: 88px;
 }
 
+/* The challenging part */
+
+.bmi-calculator {
+    background: rgb(34, 34, 34);
+}
+
 .calculator {
     display: flex;
     justify-content: space-between;
-    height: 500px;
     width: 80%;
     margin: 0 auto;
     background: rgb(34, 34, 34);
-    border: 2px solid red;
 }
 
 .chart h3 {
@@ -332,7 +337,6 @@ a {
     padding: 52px 0 52px 0;
     font-size: 28px;
     font-weight: 900;
-    line-height: 120%;
 }
 
 table, th, td {
@@ -351,6 +355,10 @@ td {
 }
 .form {
     width: 60%;
+    margin-bottom: 52px;
+}
+.form .btn-primary {
+    padding: 16px 80px;
 }
 .form h3 {
     color: rgba(255, 255, 255);
@@ -365,6 +373,34 @@ td {
     line-height: 24px;
     letter-spacing: 0.3px;
     text-align: left;
+    padding-bottom: 34px;
+}
+
+
+.bmi-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 34px;
+}
+
+.input-group {
+    display: flex;
+    gap: 12px;
+}
+
+.input-box {
+    background: rgba(255, 255, 255, 0.1);
+
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    
+    border: none;
+    padding: 16px;
+    padding-right: 25px;
+    border-radius: 8px;
+    width: 100%;
 }
 
 
@@ -508,10 +544,40 @@ td {
     }
     .bmi {
         width: 90%;
-        margin: 14px;
+        margin: 20px;
+    }
+    .bmi h3{
+        color: white;
+        font-size: 32px;
+        font-weight: bold;
     }
     .bmi p {
         width: 100%;
         padding-bottom: 32px;
+    }
+
+    .chart h3 {
+        padding: 34px 0 23px 0;
+        font-size: 28px;
+        font-weight: 900;
+    }
+
+    .calculator {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 90%;
+        margin-left: 20px;
+        background: rgb(34, 34, 34);
+    }
+    .calculator h3 {
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        font-weight: bold;
+        padding-bottom: 14px;
+    }
+    .form {
+        width: 100%;
+        margin-bottom: 52px;
     }
 }
