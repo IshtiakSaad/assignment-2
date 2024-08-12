@@ -24,8 +24,8 @@ header {
     align-items: center;
     justify-content: space-between;
     /* gap: 453px; */
-    width: 74%;
-    margin: 57px auto;
+    width: 75%;
+    margin: 55px auto;
 }
 
 .navbar h3 {
@@ -318,11 +318,57 @@ a {
 }
 
 .calculator {
+    display: flex;
+    justify-content: space-between;
     height: 500px;
+    width: 80%;
+    margin: 0 auto;
     background: rgb(34, 34, 34);
+    border: 2px solid red;
+}
+
+.chart h3 {
+    color: rgba(255, 255, 255);
+    padding: 52px 0 52px 0;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+table, th, td {
+    border: 1px solid rgba(255,255,255,0.1);
+    font-weight: 400;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 15px;
+    padding-left: 18px;
+}
+th {
+    color: white;
+}
+td {
+    color: rgba(255, 255, 255, 0.5);
+}
+.form {
+    width: 60%;
+}
+.form h3 {
+    color: rgba(255, 255, 255);
+    padding: 52px 0 14px 0;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 120%;
+}
+.form p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
 }
 
 
+/* ------------------------ Media Query Begins ------------------------------------ */
 
 @media screen and (max-width: 576px) {
 
