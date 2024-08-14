@@ -736,6 +736,7 @@ footer {
     .call-out {
         width: 90%;
         flex-direction: column;
+        margin-top: 10px;
     }
     .call-out-content {
         padding: 30px 33px;
@@ -868,5 +869,38 @@ footer {
         color: rgba(255, 255, 255, 0.5);
         font-size: 20px;
         margin-left: 20px;
+    }
+
+
+    .program-section{
+        width: 90%;
+    }
+    
+    .program-content {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .program-content h3 {
+        font-size: 32px;
+        margin-top: 50px;
+    }
+    
+    .programs {
+        flex-direction: column;
+        width: 100%;
+    }
+    .program-card {
+        margin-bottom: 35px;
+    }
+
+    .program-card p {
+        width: 300px;
+    }
+    .btn-join {
+        padding: 5px 25px;
+        color: #FFF;
+        background: rgb(230, 83, 60);
+        border-radius: 20px;
     }
 }
