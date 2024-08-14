@@ -238,6 +238,73 @@ a {
     margin-bottom: 54px;
 }
 
+.program-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.program-content {
+    width: 55%;
+    text-align: center;
+}
+
+.program-content h3 {
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 120%;
+    margin-top: 100px;
+    margin-bottom: 14px;
+}
+
+.program-content p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    margin-bottom: 54px;
+}
+
+.programs {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
+.program-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+}
+.program-card img {
+    margin-bottom: 15px; 
+    width: 200px;
+    height: 200px;
+    border-radius: 18px;
+}
+.program-card h3 {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    margin-bottom: 5px; 
+}
+.program-card p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 12px;   
+    line-height: 20px;
+    margin-bottom: 15px; 
+    width: 250px;
+    text-align: center;
+}
+.btn-join {
+    padding: 5px 25px;
+    color: #FFF;
+    background: rgb(230, 83, 60);
+    border-radius: 20px;
+}
+
+
 .cards {
     display: flex;
     flex-direction: row;
