@@ -270,6 +270,7 @@ a {
     background: rgb(34, 34, 34);
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     /* border: 1px solid red; */
 }
 .call-out-content {
